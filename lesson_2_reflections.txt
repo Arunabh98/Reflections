@@ -2,16 +2,42 @@ What happens when you initialize a repository? Why do you need to do it?
 In this we just create a sort of new workplace in which we can start a new project. We need it 
 because we need multiple repositories for multiple project
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
-
-Staging area contains the files that are to be commited to the repository but not yet commited. It helps us commit 
-one logical change at a time rather than commit one file at a time
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+Staging area contains the files that are to be commited to the repository but not yet commited. 
+It helps us commit one logical change at a time rather than commit one file at a time
 
 How can you use the staging area to make sure you have one commit per logical change?
 Sometimes a logical change can extend over more than one files and so to commit per 
 logical change we have to more than one files together. Staging Area helps us do this.
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
 Branches help us experiment with different features which can be later merged with the 
 master branch. So it helps us manage our history by helping us branch out our project in 
 diferent directions and if it doesn't work out we can just go back and delete that branch.
+
+How would branches help? 
+Branches helps us experiment with different features, collaborate with different 
+contributors and help us manage our history 
+ 
+ 
+How do the diagrams help you visualize the branch structure? 
+Through digrams we can see more clearly exactly at which commit did the branch emerge which
+comes useful in situations where we want to compare or merge files
+ 
+ 
+What is the result of merging two branches together?  
+Merging results in two branches collapsing into one branch and it combines 
+the change through two branches into one single branch 
+
+ 
+Why do we represent it in the diagram the way we do? 
+Each commit is represented on the basis of time and so we see branches running over each other.
+This is done because normally the most recent work is also the step which is closest to our goal
+ 
+ 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually? 
+Automatic merging saves a lot of time but it can also result in certain key sections of the 
+program to be deleted or modified which is necessary for program execution but without which
+the program would malfunction. 
